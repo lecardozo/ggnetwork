@@ -285,7 +285,7 @@ geom_edgelabel <- geom_edgetext
 #' @export
 geom_edgelabel_repel <- geom_edgetext_repel
 
-#' @importFrom ggplot2 ggproto
+#' @importFrom ggplot2 ggproto Stat
 #' @keywords internal
 StatEdges <-
   ggplot2::ggproto("StatEdges", ggplot2::Stat,

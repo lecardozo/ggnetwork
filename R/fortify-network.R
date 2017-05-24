@@ -50,7 +50,7 @@ if (getRversion() >= "2.15.1") {
 #'   # plot example
 #'   ggplot(ggnetwork(flo), aes(x, y, xend = xend, yend = yend)) +
 #'     geom_edges(alpha = 0.5) +
-#'     geom_nodes(size = 12, color = "white") +
+#'     geom_nodes(size = 12, colour = "white") +
 #'     geom_nodetext(aes(label = vertex.names), fontface = "bold") +
 #'     theme_blank()
 #'
@@ -66,20 +66,20 @@ if (getRversion() >= "2.15.1") {
 #'   # plot example with straight edges
 #'   ggplot(ggnetwork(emon[[1]], layout = "kamadakawai", arrow.gap = 0.025),
 #'          aes(x, y, xend = xend, yend = yend)) +
-#'     geom_edges(aes(color = Frequency),
+#'     geom_edges(aes(colour = Frequency),
 #'                arrow = arrow(length = unit(10, "pt"), type = "closed")) +
 #'     geom_nodes(aes(size = Formalization)) +
-#'     scale_color_gradient(low = "grey50", high = "tomato") +
+#'     scale_colour_gradient(low = "grey50", high = "tomato") +
 #'     scale_size_area(breaks = 1:3) +
 #'     theme_blank()
 #'
 #'   # plot example with curved edges
 #'   ggplot(ggnetwork(emon[[1]], layout = "kamadakawai", arrow.gap = 0.025),
 #'          aes(x, y, xend = xend, yend = yend)) +
-#'     geom_edges(aes(color = Frequency), curvature = 0.1,
+#'     geom_edges(aes(colour = Frequency), curvature = 0.1,
 #'                arrow = arrow(length = unit(10, "pt"), type = "open")) +
 #'     geom_nodes(aes(size = Formalization)) +
-#'     scale_color_gradient(low = "grey50", high = "tomato") +
+#'     scale_colour_gradient(low = "grey50", high = "tomato") +
 #'     scale_size_area(breaks = 1:3) +
 #'     theme_blank()
 #'

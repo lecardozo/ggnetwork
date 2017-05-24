@@ -365,7 +365,7 @@ geom_nodelabel_repel <- function(
   )
 }
 
-#' @importFrom ggplot2 ggproto
+#' @importFrom ggplot2 ggproto Stat
 #' @keywords internal
 StatNodes <-
   ggplot2::ggproto("StatNodes", ggplot2::Stat,

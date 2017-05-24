@@ -294,7 +294,7 @@ StatEdges <-
                    }
   )
 
-#' @importFrom ggplot2 ggproto
+#' @importFrom ggplot2 ggproto Stat
 #' @keywords internal
 StatMidEdges <-
   ggplot2::ggproto("StatMidEdges", ggplot2::Stat,
